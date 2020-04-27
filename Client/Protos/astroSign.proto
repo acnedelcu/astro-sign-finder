@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "Server.Protos";
+
+service AstroSign{
+	
+	rpc GetAstroSign(AstroSignLookup) returns (AstroSignResult);
+}
+
+message AstroSignLookup{
+	string date=1;
+}
+
+message AstroSignResult{
+	string sign=1;
+}

@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/AstroSign.cs \
+obj\Debug\netcoreapp3.1/AstroSignGrpc.cs: Protos/astroSign.proto
